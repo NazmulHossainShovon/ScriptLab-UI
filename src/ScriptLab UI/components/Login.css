@@ -1,0 +1,9 @@
+.move-login {
+  left: -400px;
+  position: absolute;
+}
+.come-back {
+  left: 0px;
+  position: relative;
+  transition: 0.5s;
+}
