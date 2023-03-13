@@ -1,3 +1,9 @@
+import {
+  FacebookRounded,
+  Google,
+  Gradient,
+  Twitter,
+} from "@mui/icons-material";
 import React, { useState } from "react";
 import "./FormHolder.css";
 import Login from "./Login";
@@ -17,8 +23,15 @@ export default function FormHolder() {
           Register
         </button>
       </div>
-      <Login shift={shift} />
-      <Register />
+      <div className="social-icon-holder">
+        <FacebookRounded sx={{ color: "orange", m: 1 }} />
+        <Twitter sx={{ color: "orange", m: 1 }} />
+        <Google sx={{ color: "orange", m: 1 }} />
+      </div>
+      <div className="two-forms">
+        <Login shift={shift} />
+        <Register shift={shift} />
+      </div>
     </div>
   );
 }

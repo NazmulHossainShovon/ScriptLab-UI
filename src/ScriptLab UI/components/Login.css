@@ -1,9 +1,8 @@
 .move-login {
-  left: -400px;
-  position: absolute;
+  transform: translateX(-400px);
 }
 .come-back {
-  left: 0px;
+  left: 18%;
   position: relative;
-  transition: 0.5s;
+  transition: all 0.5s;
 }

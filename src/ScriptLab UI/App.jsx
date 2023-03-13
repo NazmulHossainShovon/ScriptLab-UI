@@ -6,11 +6,9 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/scriptlab" element={<ScriptLab />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/scriptlab" element={<ScriptLab />} />
+    </Routes>
   );
 }

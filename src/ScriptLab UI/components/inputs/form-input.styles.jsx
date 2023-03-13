@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 const subColor = "grey";
-const mainColor = "black";
+const mainColor = "red";
 
 const shrinkLabelStyles = css`
   top: -14px;
@@ -44,6 +44,7 @@ export const Input = styled.input`
 export const Group = styled.div`
   position: relative;
   margin: 45px 0;
+  width: 90%;
 
   input[type="password"] {
     letter-spacing: 0.3em;

@@ -51,7 +51,7 @@ export default function ScriptLab() {
   });
 
   return (
-    <div>
+    <div className="ui-holder">
       <AppBar position="static" color="success">
         <StyledToolbar>
           <MenuIcon />
@@ -84,6 +84,18 @@ export default function ScriptLab() {
           </Menu>
         </StyledToolbar>
       </AppBar>
+
+      <div
+        style={{
+          alignItems: "center",
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "10%",
+        }}
+      >
+        <FormHolder />
+      </div>
+
       <AppBar position="fixed" color="success" sx={{ top: "auto", bottom: 0 }}>
         <Toolbar>
           <div className="footer-icon-container">
@@ -102,7 +114,6 @@ export default function ScriptLab() {
           </div>
         </Toolbar>
       </AppBar>
-      <FormHolder />
     </div>
   );
 }

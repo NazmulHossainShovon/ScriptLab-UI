@@ -1,0 +1,8 @@
+.initial-register {
+  left: 62%;
+  position: relative;
+  transition: 0.5s;
+}
+.later-register {
+  transform: translateX(-480px);
+}
