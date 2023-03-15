@@ -90,7 +90,6 @@ export default function ScriptLab() {
           alignItems: "center",
           display: "flex",
           justifyContent: "center",
-          marginTop: "10%",
         }}
       >
         <FormHolder />

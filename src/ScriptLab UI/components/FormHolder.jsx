@@ -1,9 +1,4 @@
-import {
-  FacebookRounded,
-  Google,
-  Gradient,
-  Twitter,
-} from "@mui/icons-material";
+import { FacebookRounded, Google, Twitter } from "@mui/icons-material";
 import React, { useState } from "react";
 import "./FormHolder.css";
 import Login from "./Login";
